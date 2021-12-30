@@ -1,0 +1,147 @@
+body,html{
+    margin: 0;
+    padding:0;
+}
+.to-half-blur{
+    opacity: 0.6;
+}
+/*  */
+
+nav {
+    background-color: #c482fa;
+    display: flex;
+    padding: 8px 0;
+    justify-content: space-around;
+    height: 7vh;
+}
+
+nav .left {
+    width: 50%;
+    padding: 5px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+nav .right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    padding: 5px;
+    text-align:right;
+    padding-right: 40px;
+}
+nav ul{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline;
+} 
+
+nav .left ul li a{
+    text-decoration: none;
+    color: rgb(60, 58, 58);
+    font-weight: 850;
+    color: white; 
+    transition: 0.2s ease;
+}
+nav .left ul .home{
+    color: black;
+}
+
+nav .right a{
+    background-color: rgb(247, 118, 33);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 93vh;
+}
+
+.container section {
+    display: flex;
+    width: 85%;
+}
+
+section .left-sec{
+    width: 38%;
+}
+
+section .card {
+    border: 1px solid rgb(61, 61, 61);
+    width: 350px;
+    padding: 20px 20px;
+    box-shadow: 0 0 20px rgb(99, 99, 99);
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+
+section .card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h1{
+    font-size: 1.9rem;
+}
+
+.card table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+section .right-sec{
+    width: 60%;
+    padding-left: 20px;
+}
+
+section .right-sec img{
+    width: 40px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+section .right-sec .skill-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+section .right-sec .skill{
+    width: 30%;
+}
+
+.skill h4{
+    font-size: 1.1rem;
+}
+
+.card table{
+    border: 1px solid rgb(46, 46, 46);
+    box-shadow: 0 0 5px #4b4b4b;
+}
+/*  */
+.card:hover{
+    margin-top: -10px;
+    box-shadow: 0 20px 20px rgb(105, 105, 105);
+}
+
+nav ul li a:hover{
+    font-size: 1.05rem;
+    color: orangered;
+}
+nav .right a:hover{
+    background-color: rgb(250, 213, 90);
+   color: black;
+}
+footer img:hover{
+    transform: scale(1.1);
+}
